@@ -1,0 +1,48 @@
+Riviera-PRO 2023.04.112.8911(Linux64) 2024-12-01 17:58:26
+
+Elaboration top modules:
+Architecture                  test_1(testbench)
+
+
+-------------------------------------------------------------------------------------------------------------
+Entity              | Architecture            | Library | Info | Compiler Version      | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+testbench           | test_1                  | work    |      | 2023.04.112 (Linux64) |  -2019
+RISCV32i            | arch_1                  | work    |      | 2023.04.112 (Linux64) |  -2019
+branch_control      | behav                   | work    |      | 2023.04.112 (Linux64) |  -2019
+somador             | arch_1                  | work    |      | 2023.04.112 (Linux64) |  -2019
+mux41               | arch                    | work    |      | 2023.04.112 (Linux64) |  -2019
+controle            | arq_controle            | work    |      | 2023.04.112 (Linux64) |  -2019
+ffd                 | arch_ffd                | work    |      | 2023.04.112 (Linux64) |  -2019
+memoria_instrucoes  | arch_memoria_instrucoes | work    |      | 2023.04.112 (Linux64) |  -2019
+gerador_imediato    | arch_gerador_imediato   | work    |      | 2023.04.112 (Linux64) |  -2019
+banco_registradores | arch_1                  | work    |      | 2023.04.112 (Linux64) |  -2019
+ULA                 | arch_ULA                | work    |      | 2023.04.112 (Linux64) |  -2019
+mux21               | arch_1                  | work    |      | 2023.04.112 (Linux64) |  -2019
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+VHDL Package                                  | Library | Info | Compiler Version      | Compilation Options
+-------------------------------------------------------------------------------------------------------------
+standard                                      | std     |      |                       | <unavailable>
+TEXTIO                                        | std     |      | 2023.04.112 (Linux64) |  -2019
+std_logic_1164                                | ieee    |      | 2023.04.112 (Linux64) |  -2008
+NUMERIC_STD                                   | ieee    |      | 2023.04.112 (Linux64) |  -2008
+std_logic_arith                               | ieee    |      | 2023.04.112 (Linux64) | <unavailable>
+STD_LOGIC_UNSIGNED                            | ieee    |      | 2023.04.112 (Linux64) | <unavailable>
+-------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------
+Library                                       | Comment
+-------------------------------------------------------------------------------------------------------------
+ieee                                          | Standard IEEE packages library
+std                                           | Standard VHDL library
+work                                          | None
+-------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim testbench
+
+License to run VHDL performance optimized simulation unavailable.
+
+The performance of simulation is reduced. Version EDU Edition
